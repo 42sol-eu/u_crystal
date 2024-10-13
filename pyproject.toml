@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "u-crystal"
+version = "2024.0.1"
+description = "Human-Crystal - Data Storage using the P.A.R.A. Method by Tiago Forte"
+authors = ["Andreas Felix Häberle <felix@42sol.eu>"]
+license = "GPL3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
